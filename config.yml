@@ -1,0 +1,109 @@
+token: ""
+bot:
+  email: ""
+  password: ""
+  server_ip: ""
+  port: "25565"
+  hub_command: ""
+  pay_twice: false
+  grace: true
+discord:
+  prefix: "."
+  color: "#2F3136"
+  guild: ""
+  allowed_guilds:
+    - ""
+  status: "{server_ip}"
+modules:
+  chat: true
+  welcome_logs: true
+  goodbye_logs: true
+  delete_logs: true
+  kill_log: true
+  walls: false
+  buffers: false
+  routpost: true
+  bank: true
+  vanish: true
+  claim_tracker: false
+  online_tracker: false
+  bank_tracker: false
+  auto_ftop: false
+  auto_ptop: false
+  auto_flist: false
+  auto_baltop: false
+  auto_tps: false
+  applications: true
+  serverchat: true
+  music: true
+channels:
+  whitelist: ""
+  music: ""
+  ftop: ""
+  ptop: ""
+  flist: ""
+  tps: ""
+  welcome: ""
+  goodbye: ""
+  baltop: ""
+  bank: ""
+  claim_tracker: ""
+  player_tracker: ""
+  bank_tracker: ""
+  walls: ""
+  buffers: ""
+  weewoo: ""
+  routpost: ""
+  serverchat: ""
+  application_logs: ""
+  discord_logs: ""
+  kill_logs: ""
+roles:
+  walls: ""
+  buffers: ""
+  routpost: ""
+  weewoo: ""
+  claim_tracker_role_to_tag: ""
+intervals:
+  walls: "2"
+  buffers: "10"
+  routpost: "2"
+  ftop: "5"
+  ptop: "7"
+  flist: "60"
+  baltop: "10"
+  tps: "15"
+commands:
+  ftop: "/f top"
+  ptop: "/p top"
+  fwho: "/f who"
+  flist: "/f list"
+  baltop: "/baltop"
+  pay: "/pay"
+  mctop: "/mctop"
+  koth: "/koth"
+  rotate: "/f invite "
+  tps: "/tps"
+  routpost: "/routpost"
+  outpost: "/outpost"
+applications:
+  accepted_message: "{user} has been accepted, gg"
+  denied_message: "{user} has been denied L"
+  status: "we're recruiting"
+other:
+  welcome_message: "{user} is here"
+  goodbye_message: "{user} is gone"
+  weewoo_message: "**{role} We are being raided!!**"
+  macro_message: "/f top"
+  macro_delay: "20"
+  tracked_faction:
+    - "fac1"
+    - "fac2"
+    - "fac3"
+    - "fac4"
+    - "fac5"
+    - "fac6"
+  claim_to_tag_for: "50"
+  tracked_staff:
+    - ""
+    - ""
